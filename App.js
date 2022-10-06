@@ -5,12 +5,15 @@ import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import LocationIcon from "react-native-vector-icons/Entypo";
 
 const App = () => {
+  //LOCATION
   const region = {
     latitude: 31.9412285,
     longitude: 35.8473543,
     latitudeDelta: 0.005,
     longitudeDelta: 0.005,
   };
+
+  //DATA
   const locations = [
     {
       latitude: 31.9412285,
@@ -34,8 +37,8 @@ const App = () => {
       title: "Total Gas-Station",
     },
     {
-      latitude: 31.9398867,
-      longitude: 35.848599,
+      latitude: 31.9398066,
+      longitude: 35.8485767,
       latitudeDelta: 0.005,
       longitudeDelta: 0.005,
       title: "Donuts Factory",
